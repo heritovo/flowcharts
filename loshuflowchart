@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-28T06:43:01.209Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="3EAq3Y1G5rywOHd90HIb" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-28T07:30:28.413Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="tcgw9rqyjMyCL3MKQ3-Y" version="22.1.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="486" dy="366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2155" dy="1001" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -14,6 +14,108 @@
         </mxCell>
         <mxCell id="cFBZCSTV_qqx0q8EQrDr-2" value="DECLARE 3 arrays for each row&lt;br&gt;of the magic square" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="340" y="200" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cFBZCSTV_qqx0q8EQrDr-6" value="CALL function to fill arrays with&lt;br&gt;input&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="485" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cFBZCSTV_qqx0q8EQrDr-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cFBZCSTV_qqx0q8EQrDr-7" target="cFBZCSTV_qqx0q8EQrDr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cFBZCSTV_qqx0q8EQrDr-7" value="DISPLAY &quot;Enter number &lt;br&gt;for...&quot; as many times as&amp;nbsp;&lt;br&gt;arrays need to be filled&lt;br&gt;And grab INPUT from user" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="325" y="340" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cFBZCSTV_qqx0q8EQrDr-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.506;entryY=-0.051;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cFBZCSTV_qqx0q8EQrDr-2" target="cFBZCSTV_qqx0q8EQrDr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cFBZCSTV_qqx0q8EQrDr-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cFBZCSTV_qqx0q8EQrDr-12" target="cFBZCSTV_qqx0q8EQrDr-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="739.8333333333335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cFBZCSTV_qqx0q8EQrDr-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cFBZCSTV_qqx0q8EQrDr-12" target="cFBZCSTV_qqx0q8EQrDr-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440.185185185185" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cFBZCSTV_qqx0q8EQrDr-12" value="Function to check arrays form a &lt;br&gt;magic square is TRUE?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="640" width="220" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="cFBZCSTV_qqx0q8EQrDr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cFBZCSTV_qqx0q8EQrDr-6" target="cFBZCSTV_qqx0q8EQrDr-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cFBZCSTV_qqx0q8EQrDr-16" value="FALSE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="710" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cFBZCSTV_qqx0q8EQrDr-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cFBZCSTV_qqx0q8EQrDr-17" target="cFBZCSTV_qqx0q8EQrDr-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cFBZCSTV_qqx0q8EQrDr-17" value="PRINT &lt;br&gt;&quot;This is not a Lo Shu &lt;br&gt;magic square.&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="710" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cFBZCSTV_qqx0q8EQrDr-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cFBZCSTV_qqx0q8EQrDr-19" target="cFBZCSTV_qqx0q8EQrDr-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-10" y="604.8333333333335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cFBZCSTV_qqx0q8EQrDr-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cFBZCSTV_qqx0q8EQrDr-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="615" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cFBZCSTV_qqx0q8EQrDr-19" value="DISPLAY &quot;Do you&lt;br&gt;want to try again?&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="65" y="585" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cFBZCSTV_qqx0q8EQrDr-22" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="25" y="575" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cFBZCSTV_qqx0q8EQrDr-23" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-101" y="575" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cFBZCSTV_qqx0q8EQrDr-25" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="235" y="575" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cFBZCSTV_qqx0q8EQrDr-28" value="TRUE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="858" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cFBZCSTV_qqx0q8EQrDr-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cFBZCSTV_qqx0q8EQrDr-29" target="cFBZCSTV_qqx0q8EQrDr-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cFBZCSTV_qqx0q8EQrDr-29" value="PRINT &quot;This is a Lo Shu &lt;br&gt;magic square.&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="920" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cFBZCSTV_qqx0q8EQrDr-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cFBZCSTV_qqx0q8EQrDr-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="443" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="641" y="1070" />
+              <mxPoint x="641" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cFBZCSTV_qqx0q8EQrDr-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cFBZCSTV_qqx0q8EQrDr-30" target="cFBZCSTV_qqx0q8EQrDr-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="439.9999999999998" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cFBZCSTV_qqx0q8EQrDr-30" value="DISPLAY &quot;Do you&lt;br&gt;want to try again?&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="355" y="1040" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cFBZCSTV_qqx0q8EQrDr-33" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="535" y="1038" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cFBZCSTV_qqx0q8EQrDr-37" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="1120" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cFBZCSTV_qqx0q8EQrDr-38" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-91" y="585" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cFBZCSTV_qqx0q8EQrDr-40" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="389.9999999999998" y="1169" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
